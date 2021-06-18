@@ -15,7 +15,7 @@ public class Medidas {
     //Métodos e funções-  os verbos
 
 public static void main(String[] args){
-
+    System.out.println("Bom dia!!!");
     System.out.println("Calculo de aréas!");
     //Calculo de area- como calcular a area de acordo com algumas medidas.
 
