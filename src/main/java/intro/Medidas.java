@@ -10,15 +10,24 @@ package intro;
 public class Medidas {
     //Atributos da classe Medidas
 
-
-
     //Métodos e funções-  os verbos
 
-public static void main(String[] args){
-    System.out.println("Bom dia!!!");
-    System.out.println("Calculo de aréas!");
-    //Calculo de area- como calcular a area de acordo com algumas medidas.
+public static void main(String[] args) {
+    calcularAreaModoCompacto();
+    calcularAreaModoCompacto();
 
+}
+    public static void calcularAreaModoCompacto(){
+        System.out.println("Calculo de aréas modo Curto!");
+        int largura = 2;
+        int comprimento = 3;
+
+        System.out.println("Para a largura de " + largura + "m e o comprimento de "+ comprimento + "m a área é de " + largura * comprimento + "m²");
+    }
+
+    public static void CalcularModoExtenso(){
+        //Calculo de area- como calcular a area de acordo com algumas medidas.
+        System.out.println("Calculo de aréas modo Extenso!");
     int largura;
     int comprimento;
     int resultado;
@@ -27,21 +36,12 @@ public static void main(String[] args){
     comprimento = 3;
 
     resultado = largura * comprimento;
-    System.out.println("Para a largura de " + largura + "m e o comprimento de "+ comprimento + "m a área é de " + resultado + "m²");
-
+    System.out.println("Para a largura de " + largura + "m e o comprimento de " + comprimento + "m a área é de " + resultado + "m²");
+}
 //  Calculo de aréa reduzido
 
 }
 
-public void calcularAreaModoCompacto(){
-
-    int largura = 4;
-    int comprimento = 3;
-
-    System.out.println("Para a largura de " + largura + "m e o comprimento de "+ comprimento + "m a área é de " + largura * comprimento + "m²");
 
 
 
-}
-
-}
